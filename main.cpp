@@ -17,7 +17,7 @@ int main(int argc, char *argv[]){
         return 1;
     }
     FILE *file2 = fopen(argv[2], "rb");
-    if(!file1){
+    if(!file2){
         printf("Error %s\n", argv[2]);
         fclose(file1);
         return 1;
